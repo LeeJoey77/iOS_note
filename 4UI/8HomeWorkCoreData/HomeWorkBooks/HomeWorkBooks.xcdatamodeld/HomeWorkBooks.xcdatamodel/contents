@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="BookCategory" representedClassName="BookCategory" syncable="YES">
+        <attribute name="bookCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="includeShip" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Books" inverseName="includedShip" inverseEntity="Books" syncable="YES"/>
+    </entity>
+    <entity name="Books" representedClassName="Books" syncable="YES">
+        <attribute name="bookName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookPrice" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="includedShip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BookCategory" inverseName="includeShip" inverseEntity="BookCategory" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BookCategory" positionX="-414" positionY="-0" width="128" height="88"/>
+        <element name="Books" positionX="-63" positionY="117" width="128" height="88"/>
+    </elements>
+</model>

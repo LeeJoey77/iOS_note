@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="studentAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="studentSex" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="teacherShip" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Teacher" inverseName="studentShip" inverseEntity="Teacher" syncable="YES"/>
+    </entity>
+    <entity name="Teacher" representedClassName="Teacher" syncable="YES">
+        <attribute name="teacherCreateDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="teacherName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="studentShip" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="teacherShip" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Student" positionX="-135" positionY="-18" width="128" height="105"/>
+        <element name="Teacher" positionX="-441" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>

@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34BC5CEE1C25432D000DD9E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5CED1C25432D000DD9E3 /* main.m */; };
+		34BC5CF11C25432D000DD9E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5CF01C25432D000DD9E3 /* AppDelegate.m */; };
+		34BC5CF31C25432D000DD9E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BC5CF21C25432D000DD9E3 /* Images.xcassets */; };
+		34BC5CF61C25432D000DD9E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34BC5CF41C25432D000DD9E3 /* LaunchScreen.xib */; };
+		34BC5D021C25432D000DD9E3 /* ShareCellReuseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5D011C25432D000DD9E3 /* ShareCellReuseTests.m */; };
+		34BC5D161C2543A9000DD9E3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5D0F1C2543A9000DD9E3 /* RootViewController.m */; };
+		34BC5D171C2543A9000DD9E3 /* RootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5D111C2543A9000DD9E3 /* RootTableViewCell.m */; };
+		34BC5D181C2543A9000DD9E3 /* ButtonOfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5D131C2543A9000DD9E3 /* ButtonOfCell.m */; };
+		34BC5D191C2543A9000DD9E3 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BC5D151C2543A9000DD9E3 /* Item.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34BC5CFC1C25432D000DD9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34BC5CE01C25432D000DD9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34BC5CE71C25432D000DD9E3;
+			remoteInfo = ShareCellReuse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34BC5CE81C25432D000DD9E3 /* ShareCellReuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareCellReuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BC5CEC1C25432D000DD9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BC5CED1C25432D000DD9E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34BC5CEF1C25432D000DD9E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34BC5CF01C25432D000DD9E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34BC5CF21C25432D000DD9E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34BC5CF51C25432D000DD9E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34BC5CFB1C25432D000DD9E3 /* ShareCellReuseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareCellReuseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BC5D001C25432D000DD9E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BC5D011C25432D000DD9E3 /* ShareCellReuseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareCellReuseTests.m; sourceTree = "<group>"; };
+		34BC5D0E1C2543A9000DD9E3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		34BC5D0F1C2543A9000DD9E3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		34BC5D101C2543A9000DD9E3 /* RootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewCell.h; sourceTree = "<group>"; };
+		34BC5D111C2543A9000DD9E3 /* RootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewCell.m; sourceTree = "<group>"; };
+		34BC5D121C2543A9000DD9E3 /* ButtonOfCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonOfCell.h; sourceTree = "<group>"; };
+		34BC5D131C2543A9000DD9E3 /* ButtonOfCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonOfCell.m; sourceTree = "<group>"; };
+		34BC5D141C2543A9000DD9E3 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		34BC5D151C2543A9000DD9E3 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34BC5CE51C25432D000DD9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BC5CF81C25432D000DD9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BC5CDF1C25432D000DD9E3 = {
+			isa = PBXGroup;
+			children = (
+				34BC5CEA1C25432D000DD9E3 /* ShareCellReuse */,
+				34BC5CFE1C25432D000DD9E3 /* ShareCellReuseTests */,
+				34BC5CE91C25432D000DD9E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34BC5CE91C25432D000DD9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34BC5CE81C25432D000DD9E3 /* ShareCellReuse.app */,
+				34BC5CFB1C25432D000DD9E3 /* ShareCellReuseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34BC5CEA1C25432D000DD9E3 /* ShareCellReuse */ = {
+			isa = PBXGroup;
+			children = (
+				34BC5CEF1C25432D000DD9E3 /* AppDelegate.h */,
+				34BC5CF01C25432D000DD9E3 /* AppDelegate.m */,
+				34BC5D0E1C2543A9000DD9E3 /* RootViewController.h */,
+				34BC5D0F1C2543A9000DD9E3 /* RootViewController.m */,
+				34BC5D101C2543A9000DD9E3 /* RootTableViewCell.h */,
+				34BC5D111C2543A9000DD9E3 /* RootTableViewCell.m */,
+				34BC5D121C2543A9000DD9E3 /* ButtonOfCell.h */,
+				34BC5D131C2543A9000DD9E3 /* ButtonOfCell.m */,
+				34BC5D141C2543A9000DD9E3 /* Item.h */,
+				34BC5D151C2543A9000DD9E3 /* Item.m */,
+				34BC5CF21C25432D000DD9E3 /* Images.xcassets */,
+				34BC5CF41C25432D000DD9E3 /* LaunchScreen.xib */,
+				34BC5CEB1C25432D000DD9E3 /* Supporting Files */,
+			);
+			path = ShareCellReuse;
+			sourceTree = "<group>";
+		};
+		34BC5CEB1C25432D000DD9E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BC5CEC1C25432D000DD9E3 /* Info.plist */,
+				34BC5CED1C25432D000DD9E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34BC5CFE1C25432D000DD9E3 /* ShareCellReuseTests */ = {
+			isa = PBXGroup;
+			children = (
+				34BC5D011C25432D000DD9E3 /* ShareCellReuseTests.m */,
+				34BC5CFF1C25432D000DD9E3 /* Supporting Files */,
+			);
+			path = ShareCellReuseTests;
+			sourceTree = "<group>";
+		};
+		34BC5CFF1C25432D000DD9E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34BC5D001C25432D000DD9E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34BC5CE71C25432D000DD9E3 /* ShareCellReuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BC5D051C25432D000DD9E3 /* Build configuration list for PBXNativeTarget "ShareCellReuse" */;
+			buildPhases = (
+				34BC5CE41C25432D000DD9E3 /* Sources */,
+				34BC5CE51C25432D000DD9E3 /* Frameworks */,
+				34BC5CE61C25432D000DD9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareCellReuse;
+			productName = ShareCellReuse;
+			productReference = 34BC5CE81C25432D000DD9E3 /* ShareCellReuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34BC5CFA1C25432D000DD9E3 /* ShareCellReuseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34BC5D081C25432D000DD9E3 /* Build configuration list for PBXNativeTarget "ShareCellReuseTests" */;
+			buildPhases = (
+				34BC5CF71C25432D000DD9E3 /* Sources */,
+				34BC5CF81C25432D000DD9E3 /* Frameworks */,
+				34BC5CF91C25432D000DD9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34BC5CFD1C25432D000DD9E3 /* PBXTargetDependency */,
+			);
+			name = ShareCellReuseTests;
+			productName = ShareCellReuseTests;
+			productReference = 34BC5CFB1C25432D000DD9E3 /* ShareCellReuseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34BC5CE01C25432D000DD9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = lanouhn0;
+				TargetAttributes = {
+					34BC5CE71C25432D000DD9E3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					34BC5CFA1C25432D000DD9E3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 34BC5CE71C25432D000DD9E3;
+					};
+				};
+			};
+			buildConfigurationList = 34BC5CE31C25432D000DD9E3 /* Build configuration list for PBXProject "ShareCellReuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34BC5CDF1C25432D000DD9E3;
+			productRefGroup = 34BC5CE91C25432D000DD9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34BC5CE71C25432D000DD9E3 /* ShareCellReuse */,
+				34BC5CFA1C25432D000DD9E3 /* ShareCellReuseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34BC5CE61C25432D000DD9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BC5CF61C25432D000DD9E3 /* LaunchScreen.xib in Resources */,
+				34BC5CF31C25432D000DD9E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BC5CF91C25432D000DD9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34BC5CE41C25432D000DD9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BC5D191C2543A9000DD9E3 /* Item.m in Sources */,
+				34BC5D181C2543A9000DD9E3 /* ButtonOfCell.m in Sources */,
+				34BC5CF11C25432D000DD9E3 /* AppDelegate.m in Sources */,
+				34BC5D171C2543A9000DD9E3 /* RootTableViewCell.m in Sources */,
+				34BC5CEE1C25432D000DD9E3 /* main.m in Sources */,
+				34BC5D161C2543A9000DD9E3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34BC5CF71C25432D000DD9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34BC5D021C25432D000DD9E3 /* ShareCellReuseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34BC5CFD1C25432D000DD9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34BC5CE71C25432D000DD9E3 /* ShareCellReuse */;
+			targetProxy = 34BC5CFC1C25432D000DD9E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34BC5CF41C25432D000DD9E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34BC5CF51C25432D000DD9E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34BC5D031C25432D000DD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34BC5D041C25432D000DD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34BC5D061C25432D000DD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareCellReuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34BC5D071C25432D000DD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShareCellReuse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34BC5D091C25432D000DD9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCellReuseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareCellReuse.app/ShareCellReuse";
+			};
+			name = Debug;
+		};
+		34BC5D0A1C25432D000DD9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShareCellReuseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareCellReuse.app/ShareCellReuse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34BC5CE31C25432D000DD9E3 /* Build configuration list for PBXProject "ShareCellReuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BC5D031C25432D000DD9E3 /* Debug */,
+				34BC5D041C25432D000DD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BC5D051C25432D000DD9E3 /* Build configuration list for PBXNativeTarget "ShareCellReuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BC5D061C25432D000DD9E3 /* Debug */,
+				34BC5D071C25432D000DD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34BC5D081C25432D000DD9E3 /* Build configuration list for PBXNativeTarget "ShareCellReuseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34BC5D091C25432D000DD9E3 /* Debug */,
+				34BC5D0A1C25432D000DD9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34BC5CE01C25432D000DD9E3 /* Project object */;
+}
