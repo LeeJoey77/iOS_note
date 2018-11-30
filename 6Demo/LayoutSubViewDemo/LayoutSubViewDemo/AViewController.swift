@@ -15,17 +15,34 @@ class AViewController: UIViewController, CALayerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
+        UserDefaults.standard
+        
         let uInt8Value: UInt8 = 255
         let twoThousand: UInt16 = 20_000
         let twoThousandAndOne = UInt16(uInt8Value) + twoThousand
         
-        #if TEST
-        print("haha")
         #if DEBUG
-        print("release")
+        #if DEV
+        print("DEV")
+        #elseif TEST
+        print("test")
+        #elseif PREREALSE
+        print("prerealse")
+        #endif
+        #else
+        #if PUBLICATION
+        print("PUBLICATION")
+        #else
+        print("RELEASE")
         #endif
         #endif
+
+        
+    
+        
         class AClass<T> {
             var key: String?
             

@@ -95,23 +95,32 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //协议(Protocol)用于定义完成某项任务或功能所必须的方法和属性，协议不提供具体实现
-        //Class，struct，enum 通过提供协议所要求的方法和属性的具体实现来采用(adopt)协议
+        //Protocol 用于定义完成某项任务或功能所必须的方法, 属性, 要求.协议不提供具体实现
+        //Class，struct，enum 通过提供这些要求的具体实现来服从 Protocol
         
         //1. 语法
-        //父类写在前边
-//        class SomeClass: SomeSuperClass, FirstProtocol, AnotherProtocol {
-//            // 类的内容
-//        }
+        //有父类, 父类写在前边
+        /*
+        class SomeClass: SomeSuperClass, FirstProtocol, AnotherProtocol {
+            
+        }
+        */
         
         //2. 属性要求
         //协议中的实例属性和类型属性必须指明属性是只读的还是读写, 它的实现可以是存储属性或计算属性
-        //协议中的属性必须为变量, 读写属性在类型后加 { get set }, 只读属性在类型后加 { get }
+        //协议中的属性总是为变量, 读写属性在类型后加 { get set }, 只读属性在类型后加 { get }
         //如果协议中的属性是读写的, 它的实现不能是一个常量存储属性或只读计算属性
-//        protocol SomeProtocol {
-//            var mustBeSettable: Int { get set }
-//            var doesNotNeedToBeSettable: Int { get }
-//        }
+        //协议中定义类型属性使用 static, 由一个类实现时可以用 static 或 class
+        /*
+         protocol SomeProtocol {
+            var mustBeSettable: Int { get set }
+            var doesNotNeedToBeSettable: Int { get }
+         }
+         
+         protocol AnotherProtocol {
+            static var someTypeProperty: Int { get set }
+         }
+        */
         
         struct Person: FullyNamed {
             var fullName: String

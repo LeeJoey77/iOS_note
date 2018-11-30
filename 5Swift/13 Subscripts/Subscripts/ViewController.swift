@@ -31,6 +31,7 @@ class ViewController: UIViewController {
                 }
             }
         }
+        
         //newValue 的类型和返回值的类型一致, 和计算属性一样可以不指定 setter 方法的参数, 使用默认的 newValue
         //当下标为只读时, 和计算属性一样, 可以简写去掉关键字 get 和大括号
         struct TimesTable {
