@@ -1,6 +1,0 @@
-platform :ios, '8.0'
-use_frameworks!
-
-target ‘WebView_H5Demo’ do
-   pod 'WebViewJavascriptBridge', '~> 6.0'
-end
